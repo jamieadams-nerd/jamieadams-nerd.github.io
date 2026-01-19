@@ -3,9 +3,6 @@ description: High-assurance Linux systems, logging, auditing, and tooling
 
 theme: minima
 
-minima:
-  skin: classic
-
 # Ensure GitHub Pages compatibility
 markdown: kramdown
 
