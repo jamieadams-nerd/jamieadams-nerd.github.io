@@ -4,7 +4,7 @@ layout: page
 
 Welcome.
 
-I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems. This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems and tooling. 
+I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems. This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems and tooling. It's not ALL serious though -- you'll find some Easter eggs, some fun programming techniques, and other gems. 
 
 ## Projects
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
