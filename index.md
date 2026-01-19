@@ -26,5 +26,4 @@ Long-form documentation lives in project repositories. This site is for context,
   <span style="color:#999;">{{ post.date | date: "%Y-%m-%d" }}</span>
 {% endfor %}
 
-
-[All posts →](/posts/) | [About me](/about/)
+[All posts →](/posts/)
