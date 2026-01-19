@@ -12,3 +12,7 @@ baseurl: ""
 # Optional but useful
 show_excerpts: false
 
+header_pages:
+  - posts.md
+  - posts.md
+  - about.md
