@@ -4,9 +4,7 @@ layout: page
 
 Welcome.
 
-This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems, logging, auditing, and tooling.
-
-I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems.
+I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems. This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems and tooling.
 
 The primary project I have been working is the [UNCLASSIFIED MLS Reference System Project](https://github.com/jamieadams-nerd/umrs-project).
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
