@@ -6,6 +6,7 @@ Welcome.
 
 I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems. This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems and tooling. 
 
+## Projects
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
 My primary project is the [UNCLASSIFIED MLS Reference System Project](https://github.com/jamieadams-nerd/umrs-project/blob/main/README.md).
 <p>UMRS is a hands-on, high-assurance engineering project built on Red Hat Enterprise Linux 10 in FIPS mode. It demonstrates how a real organization can design, implement, and operate a hardened Linux system using SELinux MLS and a complete unclassified label hierarchy for Controlled Unclassified Information (CUI), aligned with frameworks such as NIST SP 800-53 and the Cybersecurity Maturity Model Certification (CMMC).</p>
@@ -17,4 +18,13 @@ Rather than describing security in theory, UMRS shows how commercial Linux can b
 
 Long-form documentation lives in project repositories. This site is for context, rationale, and ongoing work.
 
-[About me](/about/)
+
+## Recent Posts
+
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url }})  
+  <span style="color:#999;">{{ post.date | date: "%Y-%m-%d" }}</span>
+{% endfor %}
+
+
+[All posts →](/posts/) | [About me](/about/)
