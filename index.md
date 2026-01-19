@@ -10,3 +10,5 @@ with a focus on high-assurance Linux systems, logging, auditing, and tooling.
 
 Long-form documentation lives in project repositories.
 This site is for context, rationale, and ongoing work.
+
+[About me](/about/)
