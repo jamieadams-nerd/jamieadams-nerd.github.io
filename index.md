@@ -4,10 +4,9 @@ layout: page
 
 Welcome.
 
-I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems. This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems and tooling.
+I am a Software Engineer, security nerd, and longtime builder of high-assurance MLS/CDS systems. This site is a public notebook for engineering work and design reasoning, with a focus on high-assurance Linux systems and tooling.<img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
 
-The primary project I have been working is the [UNCLASSIFIED MLS Reference System Project](https://github.com/jamieadams-nerd/umrs-project).
-<img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
+The primary project I have been working is the [UNCLASSIFIED MLS Reference System Project](https://github.com/jamieadams-nerd/umrs-project/README.md).
 <p></p>The Unclassified MLS Reference System (UMRS) is an ongoing high assurance engineering project built on top of Red Hat Enterprise Linux 10 operating in FIPS mode. The system is fully STIG-locked, configured for SELinux MLS with a complete unclassified label hierarchy, and structured to demonstrate—not merely describe—how a real organization can tailor, customize, and extend a commercial Linux distribution to satisfy its own security requirements.</p>
 
 
