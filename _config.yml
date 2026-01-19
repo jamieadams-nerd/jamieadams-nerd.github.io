@@ -1,0 +1,12 @@
+title: Jamie Adams
+description: High-assurance Linux systems, logging, auditing, and tooling
+theme: minima
+
+# Ensure GitHub Pages compatibility
+markdown: kramdown
+
+# Do NOT set baseurl for a user site
+baseurl: ""
+
+# Optional but useful
+show_excerpts: false
