@@ -8,7 +8,11 @@ I am a Software Engineer, security nerd, and longtime builder of high-assurance 
 
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
 My primary project is the [UNCLASSIFIED MLS Reference System Project](https://github.com/jamieadams-nerd/umrs-project/blob/main/README.md).
-<p></p>The Unclassified MLS Reference System (UMRS) is an ongoing high assurance engineering project built on top of Red Hat Enterprise Linux 10 operating in FIPS mode. The system is fully STIG-locked, configured for SELinux MLS with a complete unclassified label hierarchy, and structured to demonstrate—not merely describe—how a real organization can tailor, customize, and extend a commercial Linux distribution to satisfy its own security requirements.</p>
+<p>UMRS is a hands-on, high-assurance engineering project built on Red Hat Enterprise Linux 10 in FIPS mode. It demonstrates how a real organization can design, implement, and operate a hardened Linux system using SELinux MLS and a complete unclassified label hierarchy for Controlled Unclassified Information (CUI), aligned with frameworks such as NIST SP 800-53 and the Cybersecurity Maturity Model Certification (CMMC).</p>
+
+Beyond system configuration, UMRS develops high-assurance tools that are intentionally designed to be observable, reviewable, and auditable. These tools apply procedural controls, configuration isolation, and cryptographic techniques to help administrators and auditors examine system state, intent, and behavior from a high-assurance perspective—treating tooling itself as part of the assurance boundary.
+
+Rather than describing security in theory, UMRS shows how commercial Linux can be deliberately tailored, locked down, and extended to meet concrete security and operational requirements.
 
 
 Long-form documentation lives in project repositories. This site is for context, rationale, and ongoing work.
