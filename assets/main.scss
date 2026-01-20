@@ -103,12 +103,13 @@ pre {
   color: #e0e0e0;
 }
 
+
 /* ===============================
     Table of Contents
    ================================ */
 
-/* Float the TOC title */
-.toc {
+/* Float the TOC title (scoped to post content) */
+.post-content .toc {
   float: right;
   clear: right;
   width: 240px;
@@ -117,10 +118,11 @@ pre {
   border: 1px solid rgba(255, 255, 255, 0.15);
   background-color: rgba(255, 255, 255, 0.05);
   font-size: 0.9em;
+  overflow-wrap: anywhere;
 }
 
 /* Float the list immediately following the TOC title */
-.toc + ul {
+.post-content .toc + ul {
   float: right;
   clear: right;
   width: 240px;
@@ -131,33 +133,30 @@ pre {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   background-color: rgba(255, 255, 255, 0.05);
   list-style: none;
+  overflow-wrap: anywhere;
 }
 
 /* List spacing */
-.toc + ul li {
+.post-content .toc + ul li {
   margin: 0.4em 0;
 }
 
 /* Links inherit theme color */
-.toc + ul a {
+.post-content .toc + ul a {
   color: inherit;
   text-decoration: none;
 }
 
-.toc + ul a:hover {
+.post-content .toc + ul a:hover {
   text-decoration: underline;
 }
 
 /* Mobile fallback */
 @media (max-width: 900px) {
-  .toc,
-  .toc + ul {
+  .post-content .toc,
+  .post-content .toc + ul {
     float: none;
     width: auto;
     margin: 1.5em 0;
   }
 }
-
-
-
-
