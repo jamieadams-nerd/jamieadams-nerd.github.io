@@ -13,7 +13,7 @@ permalink: /posts/
     {{ post.date | date: "%Y-%m-%d" }} — {{ post.author | default: site.author }}
   </span>  
   {% if post.description %}
-  <div style="color:#bbb; margin: 5px 0 2em 1em;"">
+  <div style="color:#bbb; margin: 5px 0 2em 1em;">
     {{ post.description }}
   </div>
   {% endif %}
