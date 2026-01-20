@@ -51,7 +51,7 @@ Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on
   - Formally verified microkernels (e.g., seL4): Entire correctness is mathematically proven.
 
 
-# CORE CONCEPTS
+## 1) CORE CONCEPTS
 A high-assurance system is one where: Correctness, Security, and Policy enforcement are not assumed. Instead must be formally shown, rigorously tested, and verified through structured evidence, such as:
 * Formal proofs
 * Model checking
@@ -77,7 +77,7 @@ A high-assurance system is a system that:
 * asses Common Criteria EAL5+ or higher
 * and provides strong assurance — not just hope — that it will behave securely.
 
-## KEY FEATURES
+### 1.1) KEY FEATURES
 1.	Mandatory Access Control (MAC) and MLS enforcement
     - The policy is not discretionary; users and applications cannot override security decisions.
 
@@ -102,7 +102,7 @@ A high-assurance system is a system that:
 6.	Formal security model
     - Typically Bell–LaPadula (confidentiality) or Biba (integrity), or modern variants.
 
-## KEY DIFFERENCES
+### 1.2) KEY DIFFERENCES
 The key differences between High-Assurance systems and traditional systems are summarized in the table below:
 
 |                            | **High-Assurance Systems**                   | **Traditional Systems**
@@ -113,7 +113,7 @@ The key differences between High-Assurance systems and traditional systems are s
 | Development discipline | High-assurance:<br>• Strict coding standards<br>• Formal peer reviews<br>• Static analysis (Coverity, etc.)<br>• Configuration control<br>• Long-cycle testing<br>• Threat modeling<br>• Documentation requirements<br>• Security models (MLS, RBAC, etc.)<br>• Reproducible builds<br>• Mandatory hardening (FIPS, MAC, etc.) | Agile, quick iteration, “move fast,” flexible. |
 
 
-# HIGH-ASSURANCE ENGINEERING
+## 2) HIGH-ASSURANCE ENGINEERING
 High-assurance engineering is the practice of building systems that must be proven trustworthy, not simply “designed well.”
 
 It applies to systems where failure is unacceptable because it could cause:
