@@ -6,6 +6,14 @@ date: 2026-01-20
 description: >
   A concise explanation of what high-assurance systems are,
   why they exist, and how they differ from traditional systems.
+tags:
+  - high-assurance
+  - trusted-systems
+  - mls
+  - selinux
+  - umrs
+  - nist-800-53
+  - cmmc
 ---
 
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
