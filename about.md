@@ -41,7 +41,8 @@ Red Hat and Red Hat Enterprise Linux are trademarks of Red Hat, Inc. This site i
 
 Red Hat and Red Hat Enterprise Linux are trademarks or registered trademarks of Red Hat, Inc. Linux is a trademark of Linus Torvalds. Other product names, standards, and technologies mentioned on this site are the property of their respective owners. This site is not affiliated with, endorsed by, or sponsored by any of the trademark holders referenced. All references are used solely for descriptive and educational purposes.
 
-
+## Table of Contents
+- [Work Philosphy](#work-philosphy)
 
 
 
