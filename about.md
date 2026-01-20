@@ -3,7 +3,9 @@ layout: page
 title: About Me
 ---
 
-Principal Software Engineer with 30+ years of experience delivering secured, high-assurance systems, including Cross-Domain Solutions (CDS) and Multilevel Security (MLS) platforms. I have also architected and supported robust auditing and logging frameworks that ensure accountability, data integrity, and rapid detection of anomalies. A seasoned high-assurance engineering practitioner with deep expertise in secure Linux/UNIX environments, system administration, C/Python/Rust development, SNMPv3 integration, and FIPS-compliant cryptography. Highly disciplined in consistently producing comprehensive, precise, and rigorously structured technical documentation that drives engineering excellence and operational clarity.
+My name is Jamie Adams (a.k.a, "Imodium Operator") and I am a principal software engineer with 30+ years of experience delivering secured, high-assurance systems, including Cross-Domain Solutions (CDS) and Multilevel Security (MLS) platforms. I have also architected and supported robust auditing and logging frameworks that ensure accountability, data integrity, and rapid detection of anomalies. 
+
+I am a seasoned high-assurance engineering practitioner with deep expertise in secure Linux/UNIX environments, system administration, C/Python/Rust development, SNMPv3 integration, and FIPS-compliant cryptography. Highly disciplined in consistently producing comprehensive, precise, and rigorously structured technical documentation that drives engineering excellence and operational clarity.
 
 For nearly two decades I contributed to accredited CDS and MLS products, including:
 * Forensic-quality audit/event subsystems aligned with RTB requirements
