@@ -41,7 +41,6 @@ Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on
 
 
 # CORE CONCEPTS
-
 A high-assurance system is one where: Correctness, Security, and Policy enforcement are not assumed. Instead must be formally shown, rigorously tested, and verified through structured evidence, such as:
 * Formal proofs
 * Model checking
@@ -102,7 +101,6 @@ The key differences between High-Assurance systems and traditional systems are s
 |Trust boundary rigor|Every trusted component must be: minimal, auditable, inspected, verified, and controlled through change management|TCB (trusted computing base) isn’t carefully minimized; components grow organically.
 |Development discipline|High-assurance:<ul><li>strict coding standards</li><li>formal peer reviews</li><li>static analysis (Coverity, etc.)</li><li>configuration control</li><li>long-cycle testing</li><li>threat modeling</li><li>documentation requirements</li><li>security models (MLS, RBAC, etc.)</li><li>reproducible builds</li><li>mandatory hardening (FIPS, MAC, etc.)</li></ul>| Agile, quick iteration, “move fast,” flexible.
 
----
 
 # HIGH-ASSURANCE ENGINEERING
 High-assurance engineering is the practice of building systems that must be proven trustworthy, not simply “designed well.”
