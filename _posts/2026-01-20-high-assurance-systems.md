@@ -76,6 +76,7 @@ Finally, high-assurance systems are subjected to independent evaluation and form
 
 
 ### KEY FEATURES
+
 | **Feature**                                  | **Details**                                                              |
 |:---------------------------------------------|:-------------------------------------------------------------------------|
 | Mandatory Access Control (MAC) and MLS enforcement | The policy is not discretionary; users and applications cannot override security decisions.
