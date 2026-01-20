@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<img src="/assets/images/me_safety_goggles.png" align="right" width="200px" />
+<img src="/assets/images/me_safety_goggles.png" align="right" width="200px" style="margin-left: 1.5em; margin-bottom: 1em;"/>
 <p>My name is Jamie Adams (also known as “Imodium Operator”), and I’m a principal software engineer with more than 30 years of experience building secure, high-assurance systems. Over the years, my work has focused on environments where correctness, reliability, and security genuinely matter—particularly Cross-Domain Solutions (CDS) and Multi-Level Security (MLS) platforms.</p>
 
 Much of my career has involved designing and supporting systems that must be trustworthy even under failure or attack. This includes architecting robust auditing and logging frameworks that provide accountability, preserve data integrity, and enable rapid detection of anomalies. In high-assurance environments, those capabilities are not optional—they are foundational.
