@@ -103,3 +103,36 @@ pre {
   color: #e0e0e0;
 }
 
+/* ===============================
+    Table of Contents
+   ================================ */
+
+.toc {
+  float: right;
+  width: 240px;
+  margin: 0 0 1.5em 1.5em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 0.9em;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5em 0 0 0;
+}
+
+.toc li {
+  margin: 0.4em 0;
+}
+
+.toc a {
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+
