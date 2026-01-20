@@ -135,4 +135,13 @@ pre {
   text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  .toc {
+    float: none;
+    width: auto;
+    margin: 1.5em 0;
+  }
+}
+
+
 
