@@ -3,19 +3,20 @@ layout: page
 title: About Me
 ---
 
-My name is Jamie Adams (a.k.a, "Imodium Operator") and I am a principal software engineer with 30+ years of experience delivering secured, high-assurance systems, including Cross-Domain Solutions (CDS) and Multilevel Security (MLS) platforms. I have also architected and supported robust auditing and logging frameworks that ensure accountability, data integrity, and rapid detection of anomalies. 
+My name is Jamie Adams (also known as “Imodium Operator”), and I’m a principal software engineer with more than 30 years of experience building secure, high-assurance systems. Over the years, my work has focused on environments where correctness, reliability, and security genuinely matter—particularly Cross-Domain Solutions (CDS) and Multi-Level Security (MLS) platforms.
 
-I am a seasoned high-assurance engineering practitioner with deep expertise in secure Linux/UNIX environments, system administration, C/Python/Rust development, SNMPv3 integration, and FIPS-compliant cryptography. Highly disciplined in consistently producing comprehensive, precise, and rigorously structured technical documentation that drives engineering excellence and operational clarity.
+Much of my career has involved designing and supporting systems that must be trustworthy even under failure or attack. This includes architecting robust auditing and logging frameworks that provide accountability, preserve data integrity, and enable rapid detection of anomalies. In high-assurance environments, those capabilities are not optional—they are foundational.
 
-For nearly two decades I contributed to accredited CDS and MLS products, including:
-* Forensic-quality audit/event subsystems aligned with RTB requirements
-* Remote guard monitoring with MLS-enforced separation
-* CDS-MIB and SNMPv3 notification integrations
-* Protocol adapters enabling safe SMTP and printing across security boundaries
-* High-assurance secure coding, formal testing, and FIPS-aligned architecture reviews
+I work primarily in secure Linux and UNIX environments and bring hands-on experience across system administration, C, Python, and Rust development, SNMPv3 integration, and FIPS-compliant cryptography. I place a strong emphasis on clear, precise technical documentation, believing that well-written documentation is as important to system security and longevity as the code itself.
+
+For nearly two decades, I contributed to accredited CDS and MLS products, working on areas such as forensic-quality audit and event subsystems aligned with Raise-the-Bar requirements, remote guard monitoring with MLS-enforced separation, CDS-MIB and SNMPv3 notification integrations, and protocol adapters that safely enabled services like SMTP and printing across security boundaries. Throughout that work, I’ve been deeply involved in secure coding practices, formal testing, and architecture reviews aligned with FIPS and high-assurance standards.
+
+Outside of work, I’m unapologetically a sci-fi nerd. I enjoy reading, music, and cooking, and I tend to bring a bit of that creative energy into my engineering work as well. I like using science-fiction references, metaphors, and the occasional Easter egg as a way to make complex systems more approachable and memorable. Even in serious, security-critical environments, there’s room for curiosity, creativity, and a sense of fun—done thoughtfully.
+
 
 ## Work Philosophy
-I value clarity, correctness, simplicity, and security. Code should be readable, predictable, and maintainable under pressure. System administrators should never have to guess what a tool is doing. Effective secure engineering is a mix of discipline, respect for constraints, and clean design.
+
+I value clarity, correctness, simplicity, and security. Code should be readable, predictable, and maintainable—especially under pressure. System administrators should never have to guess what a tool is doing or why it behaves the way it does. In my experience, effective secure engineering comes from discipline, respect for constraints, and clean, intentional design rather than unnecessary complexity.
 
 
 ## Repositories You’ll Find Here
