@@ -54,3 +54,36 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
+
+/* ============================
+   Tables (dark theme fix)
+   ============================ */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5em 0.75em;
+  border: 1px solid #333;
+}
+
+thead th {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+tbody tr {
+  background-color: #121212;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+tbody tr:hover {
+  background-color: #2a2a2a;
+}
+
