@@ -107,42 +107,57 @@ pre {
     Table of Contents
    ================================ */
 
+/* Float the TOC title */
 .toc {
   float: right;
+  clear: right;
   width: 240px;
-  margin: 0 0 1.5em 1.5em;
-  padding: 1em;
+  margin: 0 0 0 1.5em;
+  padding: 1em 1em 0.5em 1em;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background-color: rgba(255, 255, 255, 0.05);
-  color: inherit;
   font-size: 0.9em;
 }
 
-.toc ul {
+/* Float the list immediately following the TOC title */
+.toc + ul {
+  float: right;
+  clear: right;
+  width: 240px;
+  margin: 0 0 1.5em 1.5em;
+  padding: 0 1em 1em 1em;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.05);
   list-style: none;
-  padding-left: 0;
-  margin: 0.5em 0 0 0;
 }
 
-.toc li {
+/* List spacing */
+.toc + ul li {
   margin: 0.4em 0;
 }
 
-.toc a {
+/* Links inherit theme color */
+.toc + ul a {
+  color: inherit;
   text-decoration: none;
 }
 
-.toc a:hover {
+.toc + ul a:hover {
   text-decoration: underline;
 }
 
+/* Mobile fallback */
 @media (max-width: 900px) {
-  .toc {
+  .toc,
+  .toc + ul {
     float: none;
     width: auto;
     margin: 1.5em 0;
   }
 }
+
 
 
 
