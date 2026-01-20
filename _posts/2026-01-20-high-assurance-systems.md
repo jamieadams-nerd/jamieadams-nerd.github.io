@@ -14,6 +14,8 @@ tags:
   - umrs
   - nist-800-53
   - cmmc
+  - SPARK
+  - Ada
 ---
 
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width="200">
@@ -49,7 +51,17 @@ This evidence typically includes formal proofs and model checking to show that c
 
 High-assurance systems do not stop at initial certification. Verification continues throughout the system’s lifecycle, with ongoing validation and re-evaluation as software, configurations, and operational contexts evolve.
 
-> A high-assurance system provides mathematical or process-based evidence that it behaves correctly, securely, and predictably, even under attack.
+> A high-assurance system provides mathematical or process-based evidence that it behaves correctly,
+> securely, and predictably, even under attack.
+>
+> Some high-assurance systems go beyond testing and provide mathematical proof of correctness. For example,
+> software written in [SPARK Ada](https://docs.adacore.com/spark2014-docs/html/ug/en/overview.html)
+ can use [formal contracts](https://docs.adacore.com/spark2014-docs/html/ug/en/contracts.html)
+ and [theorem proving](https://docs.adacore.com/spark2014-docs/html/ug/en/proof.html) to demonstrate, with mathematical
+> certainty, that critical properties always hold and that entire classes of runtime failure are impossible.
+>
+> 
+
 
 
 ## SYSTEM CHARACTERISTICS
