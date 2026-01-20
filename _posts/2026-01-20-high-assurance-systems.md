@@ -40,7 +40,7 @@ Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on
   - Formally verified microkernels (e.g., seL4): Entire correctness is mathematically proven.
 
 
-# HIGH-ASSURANCE SYSTEM (CORE CONCEPT)
+# CORE CONCEPTS
 
 A high-assurance system is one where: Correctness, Security, and Policy enforcement are not assumed. Instead must be formally shown, rigorously tested, and verified through structured evidence, such as:
 * Formal proofs
@@ -51,7 +51,6 @@ A high-assurance system is one where: Correctness, Security, and Policy enforcem
 * Independent evaluation
 * Continuous verification during the lifecycle
 
->[!Note]
 > A high-assurance system provides mathematical or process-based evidence that it behaves correctly, securely, and predictably, even under attack.
 
 ## HIGH-ASSURANCE SYSTEMS
@@ -68,7 +67,7 @@ A high-assurance system is a system that:
 * asses Common Criteria EAL5+ or higher
 * and provides strong assurance — not just hope — that it will behave securely.
 
-## THE KEY FEATURES OF HIGH-ASSURANCE SYSTEMS
+## KEY FEATURES
 1.	Mandatory Access Control (MAC) and MLS enforcement
     - The policy is not discretionary; users and applications cannot override security decisions.
 
@@ -93,7 +92,7 @@ A high-assurance system is a system that:
 6.	Formal security model
     - Typically Bell–LaPadula (confidentiality) or Biba (integrity), or modern variants.
 
-## THE KEY DIFFERENCES
+## KEY DIFFERENCES
 The key differences between High-Assurance systems and traditional systems are summarized in the table below:
 
 |                            | **High-Assurance Systems**                   | **Traditional Systems**
@@ -116,7 +115,6 @@ It applies to systems where failure is unacceptable because it could cause:
 - classified data leakage
 - critical infrastructure disruption
 
->[!Important]
 > In high-assurance work, the goal is not *works correctly most of the time,* but demonstrable correctness, verifiable security, and predictable behavior under all conditions—even adversarial ones.
 >
 > In simple terms:
