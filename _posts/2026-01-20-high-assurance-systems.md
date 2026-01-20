@@ -3,6 +3,9 @@ layout: post
 title: "What is a High-Assurance system?"
 author: "Jamie Adams"
 date: 2026-01-20
+description: >
+  A concise explanation of what high-assurance systems are,
+  why they exist, and how they differ from traditional systems.
 ---
 
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
