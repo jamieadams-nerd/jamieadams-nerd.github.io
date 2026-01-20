@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog Posts
+title: Posts
 permalink: /posts/
 ---
 
-## All Posts
+# Newest to Oldest
 
 {% for post in site.posts %}
 - **[{{ post.title }}]({{ post.url }})**  
