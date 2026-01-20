@@ -59,31 +59,32 @@ pre {
    Tables (dark theme fix)
    ============================ */
 
-table {
+.post-content table {
   border-collapse: collapse;
   width: 100%;
 }
 
-th,
-td {
+.post-content th,
+.post-content td {
   padding: 0.5em 0.75em;
   border: 1px solid #333;
 }
 
-thead th {
+.post-content thead th {
   background-color: #1e1e1e;
   color: #ffffff;
 }
 
-tbody tr {
+.post-content tbody tr {
   background-color: #121212;
 }
 
-tbody tr:nth-child(even) {
+.post-content tbody tr:nth-child(even) {
   background-color: #1a1a1a;
 }
 
-tbody tr:hover {
+.post-content tbody tr:hover {
   background-color: #2a2a2a;
 }
+
 
