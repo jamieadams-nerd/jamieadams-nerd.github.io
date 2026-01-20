@@ -95,5 +95,11 @@ pre {
   color: #e0e0e0;
 }
 
+/* ============================
+   FORCE table text color (override Minima)
+   ============================ */
 
+.post-content table td {
+  color: #e0e0e0;
+}
 
