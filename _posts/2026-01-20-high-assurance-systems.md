@@ -23,7 +23,7 @@ A high-assurance system is a computer system that must not merely work correctly
 
 High-assurance engineering has its roots in High Assurance Computing and Management Systems (HACAMS). In the 1990s and early 2000s, HACAMS was often used in academic papers, DARPA programs, and DoD system descriptions. Over time, the terminology shifted.
 
-<div class="toc">
+<div class="toc" markdown="1">
 
 **Contents**
 
