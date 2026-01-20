@@ -5,7 +5,6 @@ author: "Jamie Adams"
 date: 2026-01-20
 ---
 
-<h1>What is a High-Assurance system?</h1>
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width=200>
 <p>A high-assurance system is a computer system that must not merely work correctly, but must be proven, verified, and demonstrably trustworthy under the most demanding security or safety conditions.</p>
 
@@ -41,7 +40,7 @@ Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on
   - Formally verified microkernels (e.g., seL4): Entire correctness is mathematically proven.
 
 
-## HIGH-ASSURANCE SYSTEM (CORE CONCEPT)
+# HIGH-ASSURANCE SYSTEM (CORE CONCEPT)
 
 A high-assurance system is one where: Correctness, Security, and Policy enforcement are not assumed. Instead must be formally shown, rigorously tested, and verified through structured evidence, such as:
 * Formal proofs
@@ -55,7 +54,7 @@ A high-assurance system is one where: Correctness, Security, and Policy enforcem
 >[!Note]
 > A high-assurance system provides mathematical or process-based evidence that it behaves correctly, securely, and predictably, even under attack.
 
-### HIGH-ASSURANCE SYSTEMS
+## HIGH-ASSURANCE SYSTEMS
 A high-assurance system is a system that:
 * is engineered under strict, auditable processes,
 * has a minimized and verified trusted computing base,
@@ -69,7 +68,7 @@ A high-assurance system is a system that:
 * asses Common Criteria EAL5+ or higher
 * and provides strong assurance — not just hope — that it will behave securely.
 
-### THE KEY FEATURES OF HIGH-ASSURANCE SYSTEMS
+## THE KEY FEATURES OF HIGH-ASSURANCE SYSTEMS
 1.	Mandatory Access Control (MAC) and MLS enforcement
     - The policy is not discretionary; users and applications cannot override security decisions.
 
@@ -94,7 +93,7 @@ A high-assurance system is a system that:
 6.	Formal security model
     - Typically Bell–LaPadula (confidentiality) or Biba (integrity), or modern variants.
 
-### THE KEY DIFFERENCES
+## THE KEY DIFFERENCES
 The key differences between High-Assurance systems and traditional systems are summarized in the table below:
 
 |                            | **High-Assurance Systems**                   | **Traditional Systems**
@@ -106,7 +105,7 @@ The key differences between High-Assurance systems and traditional systems are s
 
 ---
 
-## HIGH-ASSURANCE ENGINEERING
+# HIGH-ASSURANCE ENGINEERING
 High-assurance engineering is the practice of building systems that must be proven trustworthy, not simply “designed well.”
 
 It applies to systems where failure is unacceptable because it could cause:
