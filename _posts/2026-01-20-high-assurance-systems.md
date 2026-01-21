@@ -85,7 +85,7 @@ Finally, high-assurance systems are subjected to independent evaluation and form
 
 
 
-### KEY FEATURES
+### Key Features
 
 | **Feature**                                  | **Details**                                                              |
 |:---------------------------------------------|:-------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ Finally, high-assurance systems are subjected to independent evaluation and form
 | Independent evaluation or certification |<br>• Common Criteria EAL5 – EAL7<br>• NSA Raise-the-Bar guidance<br>• NCDSMO evaluations<br>• FIPS 140-3 validation<br>• DO-178C (aviation)<br>• IEC 61508 / ISO 26262 (industrial/safety) |
 
 
-### KEY DIFFERENCES
+### Key Differences
 The key differences between High-Assurance systems and traditional systems are summarized in the table below:
 
 |                            | **High-Assurance Systems**                   | **Traditional Systems**                      |
