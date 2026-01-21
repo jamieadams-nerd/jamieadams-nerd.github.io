@@ -9,7 +9,9 @@
 
 body {
   background-color: #121212;
-  color: #e0e0e0;
+  color: #f0f0f0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -31,6 +33,22 @@ a:hover {
   color: #e0e0e0;
 }
 
+/* ============================
+   Dark mode: Site navigation (Minima)
+   ============================ */
+
+.site-nav {
+  background-color: #1e1e1e;
+}
+
+/* Mobile dropdown panel */
+.site-nav .trigger,
+.site-nav input:checked ~ .trigger {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+/* Nav links */
 .site-nav .page-link {
   color: #e0e0e0;
 }
@@ -91,10 +109,6 @@ pre {
   color: #e0e0e0;
 }
 
-.post-content tbody tr:nth-child(even) td {
-  color: #e0e0e0;
-}
-
 /* ============================
    FORCE table text color (override Minima)
    ============================ */
@@ -103,9 +117,8 @@ pre {
   color: #e0e0e0;
 }
 
-
 /* ===============================
-    Table of Contents
+   Table of Contents
    ================================ */
 
 /* Float the TOC title (scoped to post content) */
