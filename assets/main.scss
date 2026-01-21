@@ -173,3 +173,31 @@ pre {
     margin: 1.5em 0;
   }
 }
+
+/* ============================
+   Post typography: heading sizing (dark theme friendly)
+   ============================ */
+
+.post-content h1 { font-size: 1.9rem; }
+.post-content h2 { font-size: 1.5rem; }
+.post-content h3 { font-size: 1.25rem; }
+.post-content h4 { font-size: 1.1rem; }
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  line-height: 1.25;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+/* Slightly smaller on phones */
+@media (max-width: 600px) {
+  .post-content h1 { font-size: 1.7rem; }
+  .post-content h2 { font-size: 1.35rem; }
+  .post-content h3 { font-size: 1.15rem; }
+  .post-content h4 { font-size: 1.05rem; }
+}
+
+
