@@ -208,7 +208,7 @@ pre {
 
 /* Subsection styling: clearly nested under H2 */
 .post-content h3 {
-  margin-top: 1.4em;
+  margin-top: 1.6em;
 
   /* Keep readable, but distinct from body text */
   font-weight: 600;
@@ -219,10 +219,14 @@ pre {
   border-left: 3px solid rgba(255, 255, 255, 0.18);
 }
 
-/* H4: subtle, still distinct */
+/* H4: clearly nested under H3 */
 .post-content h4 {
+  margin-top: 1.4em;
   font-weight: 600;
-  opacity: 0.95;
+  opacity: 0.92;
+
+  padding-left: 1.1em; /* slightly more indent than H3 */
+  border-left: 2px solid rgba(255, 255, 255, 0.12); /* lighter than H3 */
 }
 
 /* Paragraph rhythm so headings don’t blend into text */
