@@ -200,10 +200,29 @@ pre {
   margin-top: 2.0em;
   padding-top: 0.9em;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+  /* Visual hierarchy cue for top-level sections */
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
+/* Subsection styling: clearly nested under H2 */
 .post-content h3 {
   margin-top: 1.4em;
+
+  /* Keep readable, but distinct from body text */
+  font-weight: 600;
+  opacity: 0.95;
+
+  /* Thin vertical line on the left to show nesting */
+  padding-left: 0.6em;
+  border-left: 3px solid rgba(255, 255, 255, 0.18);
+}
+
+/* H4: subtle, still distinct */
+.post-content h4 {
+  font-weight: 600;
+  opacity: 0.95;
 }
 
 /* Paragraph rhythm so headings don’t blend into text */
@@ -230,10 +249,13 @@ pre {
   .post-content h2 {
     margin-top: 1.6em;
     padding-top: 0.7em;
+    letter-spacing: 0.035em;
   }
 
   .post-content h3 {
     margin-top: 1.2em;
+    padding-left: 0.5em;
+    border-left-width: 3px;
   }
 
   .post-content p {
