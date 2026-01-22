@@ -19,9 +19,13 @@ tags:
 ---
 
 <img src="/assets/images/umrs-logo-1024px.png" align="right" width="200">
-A high-assurance system is a computer system that must not merely work correctly, but must be proven, verified, and demonstrably trustworthy under the most demanding security or safety conditions.
+A high-assurance system is a computer system that must not merely work correctly, but must be 
+proven, verified, and demonstrably trustworthy under the most demanding security or safety 
+conditions.
 
-High-assurance engineering has its roots in High Assurance Computing and Management Systems (HACAMS). In the 1990s and early 2000s, HACAMS was often used in academic papers, DARPA programs, and DoD system descriptions. Over time, the terminology shifted.
+High-assurance engineering has its roots in High Assurance Computing and Management Systems 
+(HACAMS). In the 1990s and early 2000s, HACAMS was often used in academic papers, DARPA programs, 
+and DoD system descriptions. Over time, the terminology shifted.
 
 
 **Contents**
@@ -33,7 +37,8 @@ High-assurance engineering has its roots in High Assurance Computing and Managem
 - [High-Assurance Engineering](#high-assurance-engineering)
 
 
-Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on under different names, such as:
+Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on under different 
+names, such as:
 * High-assurance systems
 * Trusted systems
 * MLS (multi-level security) systems
@@ -43,45 +48,88 @@ Today, you rarely hear *HACAMS* used explicitly. Instead, the same ideas live on
 
 ## REAL WORLD EXAMPLES
 
-High-assurance systems appear most often in environments where failure is unacceptable and recovery is either impossible or too late.
+High-assurance systems appear most often in environments where failure is unacceptable and recovery 
+is either impossible or too late.
 
-In **military and intelligence systems**, high assurance is required wherever information crosses trust boundaries or directly controls lethal force. Cross-Domain Solutions (CDS) and guards must comply with NSA “Raise the Bar” and NCDSMO requirements, enforce formal MLS policies, and are explicitly forbidden from failing open under any circumstance. SIGINT collection platforms operating on submarines, aircraft, or remote ground stations must behave deterministically and securely despite harsh conditions and limited access. Weapons-control computers, such as those used in missile defense and targeting systems, demand mathematically provable correctness and safety because software failure can have immediate and irreversible consequences.
+In **military and intelligence systems**, high assurance is required wherever information crosses 
+trust boundaries or directly controls lethal force. Cross-Domain Solutions (CDS) and guards must 
+comply with NSA “Raise the Bar” and NCDSMO requirements, enforce formal MLS policies, and are 
+explicitly forbidden from failing open under any circumstance. SIGINT collection platforms 
+operating on submarines, aircraft, or remote ground stations must behave deterministically and 
+securely despite harsh conditions and limited access. Weapons-control computers, such as those used 
+in missile defense and targeting systems, demand mathematically provable correctness and safety 
+because software failure can have immediate and irreversible consequences.
 
-Within **national infrastructure**, high-assurance requirements arise wherever systemic failure could threaten public safety or national survival. Nuclear command-and-control systems tolerate effectively zero probability of failure; even a sub-percent chance is considered unacceptable, pushing designs toward near-mathematical impossibility of error. Air-traffic control radar and coordination systems similarly require absolute integrity and predictable real-time behavior, as timing errors or corrupted data can cascade into catastrophic outcomes.
+Within **national infrastructure**, high-assurance requirements arise wherever systemic failure 
+could threaten public safety or national survival. Nuclear command-and-control systems tolerate 
+effectively zero probability of failure; even a sub-percent chance is considered unacceptable, 
+pushing designs toward near-mathematical impossibility of error. Air-traffic control radar and 
+coordination systems similarly require absolute integrity and predictable real-time behavior, as 
+timing errors or corrupted data can cascade into catastrophic outcomes.
 
-**Formal safety-critical industries** rely heavily on high-assurance principles enforced through regulation and certification. Aviation flight computers are governed by DO-178C Level A, requiring that every line of code be traceable, testable, and formally verified. Medical devices such as pacemakers and infusion pumps must be provably safe, because software crashes can directly result in loss of life. Industrial safety systems in oil refineries and power plants must maintain control under fault conditions, as failures can cause large-scale environmental and human disasters.
+**Formal safety-critical industries** rely heavily on high-assurance principles enforced through 
+regulation and certification. Aviation flight computers are governed by DO-178C Level A, requiring 
+that every line of code be traceable, testable, and formally verified. Medical devices such as 
+pacemakers and infusion pumps must be provably safe, because software crashes can directly result 
+in loss of life. Industrial safety systems in oil refineries and power plants must maintain control 
+under fault conditions, as failures can cause large-scale environmental and human disasters.
 
-Finally, **high-integrity cryptography and security platforms** embody many of the same assurance goals. FIPS 140-3 validated cryptographic modules require not only approved algorithms, but implementations that are demonstrably correct under strict operational constraints. Formally verified microkernels, such as seL4, take this further by mathematically proving entire classes of correctness and isolation properties, eliminating whole categories of implementation error.
+Finally, **high-integrity cryptography and security platforms** embody many of the same assurance 
+goals. FIPS 140-3 validated cryptographic modules require not only approved algorithms, but 
+implementations that are demonstrably correct under strict operational constraints. Formally 
+verified microkernels, such as seL4, take this further by mathematically proving entire classes of 
+correctness and isolation properties, eliminating whole categories of implementation error.
 
 
 ## CORE CONCEPTS
-A high-assurance system is one in which correctness, security, and policy enforcement are **never assumed**. Instead, these properties must be explicitly demonstrated and continuously defended through structured, repeatable evidence.
+A high-assurance system is one in which correctness, security, and policy enforcement are 
+**never assumed**. Instead, these properties must be explicitly demonstrated and continuously 
+defended through structured, repeatable evidence.
 
-This evidence typically includes formal proofs and model checking to show that critical properties hold by construction, rigorous code auditing to validate implementation correctness, and tightly controlled development processes that reduce the risk of unintended behavior. Trusted build environments ensure that the software being evaluated is exactly the software being deployed, while independent evaluation provides an external check against institutional bias or oversight.
+This evidence typically includes formal proofs and model checking to show that critical properties 
+hold by construction, rigorous code auditing to validate implementation correctness, and tightly 
+controlled development processes that reduce the risk of unintended behavior. Trusted build 
+environments ensure that the software being evaluated is exactly the software being deployed, 
+while independent evaluation provides an external check against institutional bias or oversight.
 
-High-assurance systems do not stop at initial certification. Verification continues throughout the system’s lifecycle, with ongoing validation and re-evaluation as software, configurations, and operational contexts evolve.
+High-assurance systems do not stop at initial certification. Verification continues throughout the 
+system’s lifecycle, with ongoing validation and re-evaluation as software, configurations, and 
+operational contexts evolve.
 
 > A high-assurance system provides mathematical or process-based evidence that it behaves correctly,
 > securely, and predictably, even under attack.
 >
-> Some high-assurance systems go beyond testing and provide mathematical proof of correctness. For example,
-> software written in [SPARK Ada](https://docs.adacore.com/spark2014-docs/html/ug/en/overview.html)
- can use [formal contracts](https://docs.adacore.com/spark2014-docs/html/ug/en/contracts.html)
- and [theorem proving](https://docs.adacore.com/spark2014-docs/html/ug/en/proof.html) to demonstrate, with mathematical
-> certainty, that critical properties always hold and that entire classes of runtime failure are impossible.
+> Some high-assurance systems go beyond testing and provide mathematical proof of correctness. For 
+> example, software written in [SPARK Ada](https://docs.adacore.com/spark2014-docs/html/ug/en/overview.html) 
+> can use [formal contracts](https://docs.adacore.com/spark2014-docs/html/ug/en/contracts.html)
+> and [theorem proving](https://docs.adacore.com/spark2014-docs/html/ug/en/proof.html) to 
+> demonstrate, with mathematical certainty, that critical properties always hold and that entire 
+> classes of runtime failure are impossible.
 >
-> 
-
 
 
 ## SYSTEM CHARACTERISTICS
-A high-assurance system is engineered under strict, auditable processes designed to make security properties explicit rather than implicit. Its trusted computing base is deliberately minimized and verified, reducing the amount of code and functionality that must be trusted to enforce security correctly.
+A high-assurance system is engineered under strict, auditable processes designed to make security 
+properties explicit rather than implicit. Its trusted computing base is deliberately minimized and 
+verified, reducing the amount of code and functionality that must be trusted to enforce security 
+correctly.
 
-Such systems are built around a mathematically defined security policy that is enforced through non-bypassable controls, such as mandatory access control (MAC) or multi-level security (MLS). In practical deployments, this may include enforcing MLS separation on platforms like RHEL using SELinux MLS, ensuring that policy enforcement occurs below the application layer and cannot be circumvented by software behavior.
+Such systems are built around a mathematically defined security policy that is enforced through 
+non-bypassable controls, such as mandatory access control (MAC) or multi-level security (MLS). In 
+practical deployments, this may include enforcing MLS separation on platforms like RHEL using 
+SELinux MLS, ensuring that policy enforcement occurs below the application layer and cannot be 
+circumvented by software behavior.
 
-High-assurance designs frequently rely on formally verified components where possible. Examples include the use of formally verified microkernels such as seL4, deterministic control logic in aircraft flight computers, and cryptographic operations implemented exclusively through FIPS 140-3 validated modules. These choices eliminate entire classes of implementation error rather than attempting to detect them after the fact.
+High-assurance designs frequently rely on formally verified components where possible. Examples 
+include the use of formally verified microkernels such as seL4, deterministic control logic in 
+aircraft flight computers, and cryptographic operations implemented exclusively through FIPS 140-3 
+validated modules. These choices eliminate entire classes of implementation error rather than 
+attempting to detect them after the fact.
 
-Finally, high-assurance systems are subjected to independent evaluation and formal analysis, often assessed against rigorous standards such as Common Criteria EAL5+ or higher. The goal is not merely to claim security, but to provide defensible, evidence-backed assurance that the system will behave correctly and securely under real-world conditions.
+Finally, high-assurance systems are subjected to independent evaluation and formal analysis, often 
+assessed against rigorous standards such as Common Criteria EAL5+ or higher. The goal is not merely 
+to claim security, but to provide defensible, evidence-backed assurance that the system will behave 
+correctly and securely under real-world conditions.
 
 
 
@@ -121,7 +169,9 @@ It applies to systems where failure is unacceptable because the consequences ext
 > High-assurance engineering = “We can prove it works, and prove it fails safely.”
 
 
-High-assurance engineering is also frequently misunderstood. It is **not** synonymous with applying individual security mechanisms or modern tooling in isolation. Practices such as secure coding, choosing a memory-safe language like Rust, running SELinux in enforcing mode, deploying firewalls, using encryption, or writing unit tests are all important—but they are security controls, not assurance by themselves.
+High-assurance engineering is also frequently misunderstood. It is **not** synonymous with applying 
+individual security mechanisms or modern tooling in isolation. Practices such as secure coding, 
+choosing a memory-safe language like Rust, running SELinux in enforcing mode, deploying firewalls, using encryption, or writing unit tests are all important—but they are security controls, not assurance by themselves.
 
 Those techniques reduce risk, but they do not establish trust.
 

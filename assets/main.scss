@@ -4,12 +4,15 @@
 @import "minima";
 
 /* ============================
-   Dark mode overrides
+       Dark mode overrides
    ============================ */
 
 body {
   background-color: #121212;
-  color: #f0f0f0;
+
+  /* Brightened slightly for readability (desktop + mobile) */
+  color: #f6f6f6;
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -57,8 +60,9 @@ a:hover {
   color: #ffffff;
 }
 
+/* Slightly brighter meta text for dark mode readability */
 .post-meta {
-  color: #aaa;
+  color: #c2c2c2;
 }
 
 code,
@@ -174,7 +178,6 @@ pre {
   }
 }
 
-
 /* ============================
    Post typography: headings + spacing (tighter, clear sections)
    ============================ */
@@ -267,8 +270,4 @@ pre {
     margin-bottom: 0.8em;
   }
 }
-
-
-
-
 

@@ -12,11 +12,10 @@ I work primarily in secure Linux and UNIX environments and bring hands-on experi
 
 For nearly two decades, I contributed to accredited CDS and MLS products, working on areas such as forensic-quality audit and event subsystems aligned with Raise-the-Bar requirements, remote guard monitoring with MLS-enforced separation, CDS-MIB and SNMPv3 notification integrations, and protocol adapters that safely enabled services like SMTP and printing across security boundaries. Throughout that work, I’ve been deeply involved in secure coding practices, formal testing, and architecture reviews aligned with FIPS and high-assurance standards.
 
-Outside of work, I’m unapologetically a sci-fi nerd. I enjoy reading, music, and cooking, and I tend to bring a bit of that creative energy into my engineering work as well. I like using science-fiction references, metaphors, and the occasional Easter egg as a way to make complex systems more approachable and memorable. Even in serious, security-critical environments, there’s room for curiosity, creativity, and a sense of fun—done thoughtfully.
+Outside of work, I’m unapologetically a sci-fi nerd. I enjoy woodworking, cooking, reading, and music, and I tend to bring a bit of that creative energy into my engineering work as well. I like using science-fiction references, metaphors, and the occasional Easter egg as a way to make complex systems more approachable and memorable. Even in serious, security-critical environments, there’s room for curiosity, creativity, and a sense of fun—done thoughtfully.
 
 
 ## Work Philosophy
-
 I value clarity, correctness, simplicity, and security. Code should be readable, predictable, and maintainable—especially under pressure. System administrators should never have to guess what a tool is doing or why it behaves the way it does. In my experience, effective secure engineering comes from discipline, respect for constraints, and clean, intentional design rather than unnecessary complexity.
 
 
