@@ -168,6 +168,14 @@ pre {
   text-decoration: underline;
 }
 
+/* ===========================
+    Blockquotes: Override left border
+   =========================== */
+
+.post-content blockquote {
+  border: 0;
+}
+
 /* Mobile fallback */
 @media (max-width: 900px) {
   .post-content .toc,
