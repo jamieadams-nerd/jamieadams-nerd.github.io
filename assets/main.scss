@@ -173,7 +173,7 @@ pre {
    ============================ */
 .post-content blockquote {
   border-left: 0 !important;
-  padding-left: 0 !important; /* removes the “offset” caused by the bar */
+  padding-left: 15px !important; /* Preserves Minima's indent*/
 }
 
 
