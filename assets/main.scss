@@ -168,13 +168,14 @@ pre {
   text-decoration: underline;
 }
 
-/* ===========================
-    Blockquotes: Override left border
-   =========================== */
-
+/* ============================
+   Blockquote: keep Minima style, remove left bar
+   ============================ */
 .post-content blockquote {
-  border: 0;
+  border-left: 0 !important;
+  padding-left: 0 !important; /* removes the “offset” caused by the bar */
 }
+
 
 /* Mobile fallback */
 @media (max-width: 900px) {
