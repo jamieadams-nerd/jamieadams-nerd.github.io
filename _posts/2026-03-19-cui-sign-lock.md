@@ -18,6 +18,9 @@ tags:
   - rust
   - compliance
 ---
+![A vault door alone in a field. The CUI sign is misspelled. 
+The walls are not present. Fifteen years of self-attestation 
+summarized.](/assets/images/vault-door.png)
 
 # Your CUI Policy Is a Sign. Here Is How to Build the Lock.
 
