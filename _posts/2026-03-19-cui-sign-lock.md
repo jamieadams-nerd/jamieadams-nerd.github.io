@@ -180,10 +180,7 @@ starts here.
 
 ## The Lineage That Justifies the Confidence
 
-Anderson 1972. Bell-LaPadula 1973. Orange Book. SELinux. RHEL 4 first commercial SELinux in
-2005. UMRS applies fifty years of proven ideas to the current, legally mandated problem of
-CUI protection on unclassified Linux — memory-safe, no unsafe code, no Foreign Function
-Interface (FFI) shortcuts, every decision traceable to a requirement.
+Anderson 1972. Bell-LaPadula 1973. Orange Book. SELinux. RHEL 4 first commercial SELinux in 2005. UMRS applies fifty years of proven ideas to the current, legally mandated problem of CUI protection on unclassified Linux — memory-safe, no unsafe code, no Foreign Function Interface (FFI) shortcuts, every decision traceable to a requirement.
 
 There is a reason Ada is still running flight control systems forty years after engineers
 who have never used it started dismissing it. Languages designed for high assurance are not
