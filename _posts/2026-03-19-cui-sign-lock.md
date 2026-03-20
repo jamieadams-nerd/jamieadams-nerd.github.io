@@ -21,9 +21,11 @@ tags:
 <img src="/assets/images/vault-door.png" 
      alt="A vault door alone in a field. The CUI sign is misspelled. 
      The walls are not present. Fifteen years of self-attestation summarized." 
-     style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
+     style="width: 100%; max-width: 700px; display: block; margin: 0 auto;">
+
 <!-- Cross-post targets: dev.to, r/netsec, r/rust, jamieadams.dev -->
 <!-- Audience: security engineers at defense contractors, Rust practitioners in regulated environments -->
+
 I have been in this industry long enough to remember when For Official Use Only (FOUO) meant
 whatever the person who printed it wanted it to mean. Before 2010: no unified framework,
 just incompatible agency markings — FOUO, Sensitive But Unclassified (SBU), Law Enforcement
