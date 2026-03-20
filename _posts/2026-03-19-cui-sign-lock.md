@@ -193,7 +193,7 @@ proof, or the compiler says no. Rust just made the proving less painful to write
 
 ## What You Can Do Right Now
 
-UMRS is open source. Phase 1 is on GitHub.
+UMRS is open source. Phase 1 is on GitHub and we are completing the instructions now.
 
 - `components/platforms/rhel10/CUI-LABELS.json` — 72 entries, 23 category groups,
   48 subcategories, verbatim handling restrictions. Browse it and ask yourself how many
