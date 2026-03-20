@@ -42,7 +42,7 @@ Security Classification Policy (GSCP), Canada's Protected A/B/C levels, Australi
 Protective Security Policy Framework (PSPF), and New Zealand's Protective Security
 Requirements (PSR). Allied nations maintain their own: France's SGDSN IGI 1300 is one
 example. UMRS is designed for loadable country label profiles so coalition systems
-can carry partner and allied schemes alongside CUI (Phase 2).
+can carry partner and allied schemes alongside CUI. These will be done in the next phase.
 
 ## The Sign That Replaced the Lock
 
@@ -191,7 +191,7 @@ proof, or the compiler says no. Rust just made the proving less painful to write
 
 ## What You Can Do Right Now
 
-UMRS is open source on GitHub and we are actively working so, email me if you have questions.
+UMRS is open source on GitHub and I am  actively working so, email me if you have questions.
 
 - `components/platforms/rhel10/CUI-LABELS.json` — 72 entries, 23 category groups,
   48 subcategories, verbatim handling restrictions. Browse it and ask yourself how many
