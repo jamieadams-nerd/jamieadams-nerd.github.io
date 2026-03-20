@@ -159,9 +159,9 @@ overridden. An auditor opens one file per crate — if the directive is there, t
 has already proven no unsafe code exists. Mechanical proof, with one bounded exception
 that proves the rule.
 
-## Phase 1: The Sign Is Actually Good
+## The Sign Is Actually Good
 
-Phase 1 of UMRS loads CUI category labels into the Multi-Category Security (MCS) translation layer
+Rioght now, UMRS loads the CUI category labels into the Multi-Category Security (MCS) translation layer
 under targeted SELinux policy. Operators see the specific category, subcategory, and verbatim
 regulatory language — not a generic "CUI" stamp. A file carrying CUI//LEI/INV and CUI//AGR/AMNT is
 labeled as exactly that. The categories compose. The concept is proven.
@@ -170,13 +170,11 @@ Most organizations have no operator-facing view of what handling requirements ap
 files. Phase 1 solves that. But it is still a sign — targeted policy has escape hatches
 Bell-LaPadula enforcement does not.
 
-Oour planned work for phase 2 is the lock. MLS policy replaces targeted policy. The SELinux reference monitor
-enforces CUI boundaries at the kernel level. dm-crypt encrypts CUI data at rest. Integrity
+My next major effort will be to write MLS policy so we can have stronger enforcement, not just t ype enforcement from the targeted policy. 
+The SELinux reference monitor enforces CUI boundaries at the kernel level. dm-crypt encrypts CUI data at rest. Integrity
 Measurement Architecture (IMA) verifies CUI-handling binaries before execution. We are
 proving concepts now.
 
-I will not tell you Phase 2 is done when it is not. Fifty years of engineering honesty
-starts here.
 
 ## The Lineage That Justifies the Confidence
 
@@ -193,7 +191,7 @@ proof, or the compiler says no. Rust just made the proving less painful to write
 
 ## What You Can Do Right Now
 
-UMRS is open source. Phase 1 is on GitHub and we are completing the instructions now.
+UMRS is open source on GitHub and we are actively working so, email me if you have questions.
 
 - `components/platforms/rhel10/CUI-LABELS.json` — 72 entries, 23 category groups,
   48 subcategories, verbatim handling restrictions. Browse it and ask yourself how many
@@ -247,13 +245,13 @@ The lock is under construction. The blueprints are open.
 ---
 
 *UMRS — Unclassified MLS Reference System. Open source, RHEL 10, Rust, no
-unsafe code. Phase 1 complete. Phase 2 in progress.*
+unsafe code.* 
 
 *GitHub: https://github.com/jamieadams-nerd/umrs-project*
-*YouTube: follow for deep-dives on SELinux MLS, CUI engineering, and
+
+*YouTube: Coming soon.... follow for deep-dives on SELinux MLS, CUI engineering, and
 high-assurance Rust patterns*
 
----
 
 *About the authors: Jamie Adams is a 35-year veteran of high-assurance
 security engineering and the architect of UMRS. Sage is his AI
