@@ -1,7 +1,22 @@
----
+i---
 layout: post
 title: "Your CUI Policy Is a Sign. Here Is How to Build the Lock."
+author: Jamie Adams
 date: 2026-03-19
+description: >
+  For fifteen years, CUI protection meant self-attestation and shared drives
+  with warning banners. CMMC changed the rules. UMRS shows what kernel-level
+  enforcement actually looks like — the way the classified world has done it
+  since the 1970s.
+tags:
+  - cui
+  - cmmc
+  - selinux
+  - mls
+  - umrs
+  - high-assurance
+  - rust
+  - compliance
 ---
 
 # Your CUI Policy Is a Sign. Here Is How to Build the Lock.
