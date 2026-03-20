@@ -31,9 +31,7 @@ whatever the person who printed it wanted it to mean. Before 2010: no unified fr
 just incompatible agency markings — FOUO, Sensitive But Unclassified (SBU), Law Enforcement
 Sensitive (LES), SENSITIVE. None enforceable.
 
-Executive Order 13556 established the Controlled Unclassified Information (CUI) program in
-2010. The National Archives and Records Administration (NARA) became the executive agent.
-NIST Special Publication 800-171 published 110 controls. Contractors started writing System
+Executive Order 13556 established the Controlled Unclassified Information (CUI) program in 2010. The National Archives and Records Administration (NARA) became the executive agent. NIST Special Publication 800-171 published 110 controls. Contractors started writing System
 Security Plans (SSPs).
 
 And then almost nothing changed. Policy existed. Training got delivered. Information kept
@@ -102,11 +100,11 @@ The question: *can orthogonal, category-based access control work inside a syste
 for layered, hierarchical security?*
 
 Classified systems are vertical — Confidential, Secret, Top Secret. CUI is *horizontal*.
-Law Enforcement Investigative (LEI/INV) is not "more sensitive" than Agriculture Ammonium
-Nitrate (AGR/AMNT). Different rooms, different locks.
+Law Enforcement Investigative (CUI//LEI/INV) is not "more sensitive" than Agriculture Ammonium
+Nitrate (CUI//AGR/AMNT). Different rooms, different locks.
 
 Categories compose. An investigator on a case involving agricultural chemicals in an
-improvised explosive device holds LEI/INV, AGR/AMNT, and Controlled Technical Information
+improvised explosive device holds CUI//LEI/INV, CUI//AGR/AMNT, and Controlled Technical Information
 (CTI) — access to the exact intersection, not an undifferentiated pool.
 
 The kernel enforces this using set theory — similar in structure to how DAC groups work, but
@@ -127,7 +125,7 @@ policy, when the escape hatch closes.
 Most systems treat CUI as a single label — "handle appropriately." That is nearly as useless
 as FOUO. UMRS carries a Rust-parsed catalog of 72 marking entries across 23 category groups
 and 48 subcategories. Each entry carries three layers: regulatory origin, verbatim handling
-requirements from the actual regulation, and the consequences of getting it wrong. LEI/INV:
+requirements from the actual regulation, and the consequences of getting it wrong. CUI//LEI/INV:
 28 CFR Part 23 governs it, mishandling exposes an active investigation. CTI: EAR/ITAR applies,
 criminal exposure is real. AGR: specific safety framework and documentation required before
 any sharing. A traditional MAC system marks a file and enforces access. UMRS does that — and
@@ -163,16 +161,16 @@ that proves the rule.
 
 ## Phase 1: The Sign Is Actually Good
 
-Phase 1 loads CUI category labels into the Multi-Category Security (MCS) translation layer
+Phase 1 of UMRS loads CUI category labels into the Multi-Category Security (MCS) translation layer
 under targeted SELinux policy. Operators see the specific category, subcategory, and verbatim
-regulatory language — not a generic "CUI" stamp. A file carrying LEI/INV and AGR/AMNT is
+regulatory language — not a generic "CUI" stamp. A file carrying CUI//LEI/INV and CUI//AGR/AMNT is
 labeled as exactly that. The categories compose. The concept is proven.
 
 Most organizations have no operator-facing view of what handling requirements apply to their
 files. Phase 1 solves that. But it is still a sign — targeted policy has escape hatches
 Bell-LaPadula enforcement does not.
 
-Phase 2 is the lock. MLS policy replaces targeted policy. The SELinux reference monitor
+Oour planned work for phase 2 is the lock. MLS policy replaces targeted policy. The SELinux reference monitor
 enforces CUI boundaries at the kernel level. dm-crypt encrypts CUI data at rest. Integrity
 Measurement Architecture (IMA) verifies CUI-handling binaries before execution. We are
 proving concepts now.
