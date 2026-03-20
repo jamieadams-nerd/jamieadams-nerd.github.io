@@ -1,4 +1,4 @@
-i---
+---
 layout: post
 title: "Your CUI Policy Is a Sign. Here Is How to Build the Lock."
 author: Jamie Adams
