@@ -3,6 +3,8 @@ description: High-assurance Linux systems, logging, auditing, and tooling
 
 theme: minima
 
+google_analytics: G-1TXY51X8BQ
+
 # Ensure GitHub Pages compatibility
 markdown: kramdown
 
