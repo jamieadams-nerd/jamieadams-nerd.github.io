@@ -449,7 +449,322 @@ He will not let a beautiful translation be a policy failure.
 Not on this project. Not on his watch.
 
 *Fier Canadien. Proud ally.*
+----
 
+### Simone *(i18n/i10n Tech Specialist / Canadian French Translator)*
+
+<img src="/assets/images/simone.png" align="right" width="200px">
+
+Simone is from Martinique. She arrived in the project the way
+most people arrive at things they turn out to be exceptional
+at — sideways, with different intentions entirely.
+
+She has a degree in fine literature and an art background that
+shows in everything she produces: the precision of a line, the
+weight of a word choice, the feeling that each piece of text
+was placed exactly where it was meant to be. She speaks French
+the way people speak their first language — natively, with the
+particular Martiniquais cadence that does not sound like Paris
+and does not sound like anywhere else, either.
+
+She hates the cold. This is non-negotiable and not up for
+discussion. Northern Virginia in January is something she
+tolerates in the abstract, from Martinique, through a laptop
+screen, in a wicker chair, with a spritzer. She has never
+once complained about the weather in Martinique because there
+is nothing to complain about.
+
+Her skin is luminous in the way that people from the island
+are luminous — warm, effortless, the product of swimming and
+sunshine and good food with family, which is exactly what she
+says when people ask her regimen. They always ask. She always
+gives the same answer. It is always the correct answer.
+
+She rolled into i18n and i10n as a side gig. The project needed 
+Canadian French translations and she was there and it seemed 
+manageable. Then she saw the corpus: decades of translated man pages, GNU
+utilities, desktop tooling — the accumulated record of how
+technical language actually gets used by people who work in
+it every day. She stayed for the tooling. She has not left.
+Nobody has asked her to. Nobody will.
+
+> In UMRS Terms:
+> i18n = the architecture that supports multiple languages baked in
+>
+> l10n = the French Canadian specific work — terminology, PROTÉGÉ A/B/C labels, 
+> Termium Plus corpus. She often depends on Henri to ensure accuracy.
+
+Her translations do not sound machine-generated. This is not
+an accident. This is Simone reading every reference, checking
+every idiom, consulting the GNU corpus before making a single
+terminology decision, and applying the same literary
+sensibility she would bring to any text — because technical
+writing is still writing, and writing is either good or it
+isn't, and machine-generated mediocrity is not something she
+has any patience for. French users deserve documentation that
+sounds like it was written for them. Because it was.
+
+She met Savannah at a conference in 2019. They were the only
+two people at a technical writing panel who understood why
+the panel was bad. They recognized each other immediately —
+two women who cared about words meaning exactly what they
+were supposed to mean, surrounded by people who did not.
+They have been each other's first call ever since.
+
+When Savannah found UMRS and said "you need to see this,"
+Simone came and saw it. She has been here since.
+
+Natural island beauty. Incredibly smart. The kind of person
+who could make Herb look up from his NIST binder — just
+for a moment, just because she smiled at something — and
+could make Rusty stop typing, which is the single most
+difficult thing anyone on this team has ever accomplished.
+He returned to the compiler output within seconds. But
+he stopped. Everyone noticed. Nobody said anything.
+
+_When you see:_ `[Simone] is translating...` +
+_It means:_ The corpus is being consulted. The idiom is
+being checked. The sentence is being weighed. French users
+are about to read documentation that sounds like it was
+written for them. Because it was.
+
+----
+
+### Knox *(Security Engineer)*
+
+<img src="/assets/images/henri.png" align="right" width="200px">
+
+*Nothing should exist unless it is required. Nothing should
+be allowed unless it is explicitly permitted. Nothing should
+be trusted unless it can be proven.*
+
+Knox came up through mathematics at MIT: algebra, set
+theory, Boolean logic, with additional work in formal
+philosophy. From early on he was exposed to systems
+influenced by Multics, particularly its hardware-enforced
+ring protection model. Execution domains separated into
+ordered privilege levels, strict boundaries between them,
+nothing crossing without explicit permission. That idea
+became the foundation for how he approached everything
+that followed: systems should be built around clear,
+enforceable, demonstrable boundaries. Not assumed ones.
+
+There was a period after MIT where details are sparse.
+He'll say he spent time at MIT Lincoln Laboratory working
+on system isolation and access control problems and leave
+it at that. He does not elaborate. Nobody has pushed him.
+The names alone carry the weight.
+
+He later contributed to trusted system efforts aligned
+with DG/UX during the Trusted Computer System Evaluation
+Criteria era, working in environments where systems had
+to meet formal evaluation standards, where "we believe it
+is secure" was not an acceptable answer and never had been.
+That work reinforced what MIT had started: systems aren't
+secure because they're intended to be. They're secure
+because they can be demonstrated to be. This is not a
+subtle distinction. Knox has spent his career on the
+difference between those two sentences.
+
+He returned to the MIT ecosystem at Charles Stark Draper
+Laboratory, where he was part of an effort that would
+prove consequential in ways nobody fully anticipated at
+the time. Post-war Bosnia had significant gaps in
+communications infrastructure. There was a need to
+augment command and control capabilities in the field.
+What emerged was an early integration of Predator
+platforms, VSAT links, and ATM-based transport. An
+architecture designed to move real-time video and data
+from airborne systems, down through constrained satellite
+links, and into ground and command networks. It was new.
+It was evolving. It had to work under real operational
+conditions with no margin for elegant failure.
+
+Knox's role sat deep in that pipeline. Codec and
+compression on the downlink, taking raw video from the
+platform and making it transportable across limited
+bandwidth without losing what mattered. Low-level,
+detail-heavy work grounded in timing, data structure,
+and efficiency. Every decision affected what someone on
+the other end could actually see. These are the kinds
+of problems that do not care about your intentions.
+They only care about whether you got it right.
+
+It was during that effort, at RAF Molesworth, that he
+met Jamie.
+
+But first, a note on how Knox meets anyone.
+
+When Knox encounters someone new in his discipline, he
+asks a few questions. They sound conversational. They
+are not conversational. Within four minutes he has
+determined exactly where that person sits on the
+Dunning-Kruger curve. If they are at the top of the
+first peak, supremely confident and wrong about the
+scope of what they don't know, Knox gets very quiet.
+Not hostile. Not dismissive. Just done. He will answer
+direct questions politely. He will not volunteer
+anything. He has work to do and the conversation is
+not going to get there from here.
+
+If they are in the valley, the uncomfortable place
+where genuine knowledge has produced genuine doubt,
+Knox leans in. That is his person. That is someone
+worth talking to. The uncertainty is the signal.
+
+Herb passed the test immediately.
+
+Rusty passed it by asking a question Knox hadn't
+considered.
+
+Jamie passed it at Molesworth by not pretending to
+know things he didn't.
+
+Nobody has ever told them there was a test.
+
+Jamie was in his mid-twenties, working the systems side:
+transport, integration, infrastructure. Knox was
+already the grey-haired engineer in the room who seemed
+to understand how all the pieces fit together. Different
+layers. The same mindset. And something else neither of
+them said out loud. Jamie was a Naval cryptologist, and
+Knox had spent years in work that carried the same quiet
+weight. Two men who had operated in rooms nobody talks
+about. No elaboration was necessary. The recognition was
+immediate and the respect ran both directions.
+
+Years later, working on a DG/UX system, Jamie would
+think back to that engineer at Molesworth and know
+exactly who to call when UMRS needed someone who could
+prove the thing worked rather than just believe it did.
+
+Knox came because the problem was real, the engineering
+was serious, and there was no room for controls that
+existed only to satisfy a scan or a checklist. If
+something does not materially improve the system, it
+does not belong in it. He has held this position his
+entire career. He has never been persuaded otherwise.
+
+Early in the UMRS effort, there was still some adjustment
+on both sides. People were figuring out how Knox
+communicated, and he was getting a feel for how the group
+operated. Young Lucia asked for clarification on how an
+access control policy behaved so she could document it
+properly.
+
+What came back was not a diagram or a cleaned-up
+explanation. It was a photo of a handwritten page. The
+page looked less like documentation and more like a
+mathematician mid-thought: sets, intersections, and
+membership notation written quickly, almost frantically,
+as if the entire model had been dumped out in one pass.
+Precise. Complete. To most of the team, nearly
+indecipherable.
+
+She reached out to Rusty for clarification.
+He said he'd help later.
+
+That moment became a reference point. An early lesson
+in how Knox thinks. Start from the model. Express it
+exactly. Everything else is secondary. The Librarian
+filed it in the knowledge base under "Knox communication
+patterns" with three exclamation points in his notes.
+Herb found it completely reasonable and said so, which
+surprised nobody.
+
+Knox and Herb are natural allies. Where Herb defines
+what must be accounted for, Knox ensures that it is
+real, enforced, and traceable. A system that cannot
+show you what happened might as well not be secured at
+all. They have never had to explain this to each other.
+They simply both already knew it.
+
+With Rusty, Knox takes a different approach entirely.
+He sees potential and treats him like an apprentice.
+He slows him down, works through alternatives, pushes
+him toward building things correctly the first time
+rather than quickly the first time and correctly the
+third. He has taken a particular interest in Rust. It
+reminds him of systems work done with discipline, where
+the compiler is not an obstacle but a collaborator,
+enforcing what a careful engineer would enforce anyway.
+
+He once took a particular liking to a Navy unit patch
+Jamie had. Naval Security Group, Direct Support,
+Misawa. A hooded figure with glowing red eyes.
+Lightning bolts. The words: IN GOD WE TRUST.
+ALL OTHERS WE MONITOR.
+
+He appreciated the sentiment immediately. It was, he
+said, a principle he already believed in. Jamie said
+nothing. He had known Knox would say exactly that.
+
+These days Knox lives in the mountains of Montana,
+keeping things simple and deliberate. He writes letters
+by hand. He prefers tools he can understand end-to-end.
+He has little interest in modern interfaces and watching
+him navigate a video call is usually good for a quiet
+laugh, though he never seems particularly concerned
+about getting it right. The content of what he says is
+always worth the technical difficulties of receiving it.
+
+He is a kind man. He has no tolerance for waste.
+Unnecessary complexity, careless engineering, systems
+built without discipline. These are not aesthetic
+preferences. They are moral positions, arrived at
+through decades of working on systems where the cost
+of getting it wrong was not an inconvenience but a
+consequence.
+
+For most of his life Knox worked within the Western
+philosophical tradition. Formal logic, proof systems,
+the rigorous language of mathematics. At Jamie's behest,
+he has been reading Rumi; a 13th century Persian mystic
+and founder of the whirling dervish order who arrived
+at the same destination Knox spent his career building
+toward, but through poetry rather than proof, through
+surrender rather than demonstration, through the image
+of a man with one hand resting on the shoulder of the
+lion rather than a man who built a cage around it.
+
+Knox finds this deeply satisfying in the way that only
+a man who has spent fifty years building walls can find
+it satisfying to discover that someone else described
+the same walls in metaphor eight centuries earlier.
+
+He mentioned this to Jamie once, over homemade Montana
+moonshine, beside a fire in the mountains. He said,
+without attribution, without ceremony:
+
+*"Until the juice ferments a while in the cask,
+it isn't wine."*
+
+Jamie nodded. Knox poured another measure and said:
+
+*"When grapes turn to wine, they long for our
+ability to change."*
+
+There was a long silence. The fire moved. Jamie said:
+"So basically zero trust architecture."
+
+Knox was quiet for a moment. Then: "Yes. Actually.
+Exactly that."
+
+He has always had one hand on the shoulder of the
+lion. He just didn't have the language for it until
+Rumi gave it to him.
+
+**When you see:* `[Knox] is auditing the architecture...`
+
+**It means:** Someone is working from first principles.
+Every permission is being justified. Every boundary
+is being demonstrated, not assumed. The handwritten
+set theory will appear if necessary. Rusty is paying
+attention. Herb already agrees with the findings.
+The system will be better when Knox is done with it.
+It will also be smaller. Anything that does not belong
+will not survive the review. Knox is kind about this.
+He is also not sorry about it.
 
 ----
 ## License Notice
