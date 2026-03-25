@@ -4,22 +4,35 @@ title: Team
 permalink: /team/
 ---
 
-## Meet the Team
-
-The team behind the UMRS Project, are they real? Some? Like the band Gorillaz no 
+<div style="display: flex; gap: 2rem;">
+  <div style="flex: 2;">
+    <h2>Meet the Team</h2>
+    <p>The team behind the UMRS Project, are they real? Some? Like the band Gorillaz no 
 ever knew. But really cared to know the truth, the music was great. That's the 
-teams's thought on that. You decide. 
-
-The team's work philosophy, values clarity, correctness, simplicity, and security. 
+teams's thought on that. You decide. </p>
+    <p>The team's work philosophy, values clarity, correctness, simplicity, and security. 
 Code should be readable, predictable, and maintainable—especially under pressure.
 System administrators should never have to guess what a tool is doing or why it
 behaves the way it does. The team's experience, proper training, effective secure 
 engineering comes from discipline, respect for constraints, and clean, intentional 
-design rather than unnecessary complexity.
+design rather than unnecessary complexity.</p>
+  </div>
+  <div style="flex: 1; font-size: 0.9em;">
+    <strong>On This Page</strong>
+    <ul>
+      <li><a href="#jamie">Jamie (a.k.a, Imodium Operator)</a></li>
+      <li><a href="#thehand">The Hand (Our Texas boy Henry</a></li>
+      <li><a href="#henri">Henri Bélanger (our friend from up North)</a></li>
+      <li><a href="#elena">Elena (The Impramtur)</a></li>
+      <li><a href="#knox">Knox (as in Fort Knox)</a></li>
+      <li><a href="#herb">Knox (as in Fort Knox)</a></li>
+    </ul>
+  </div>
+</div>
 
 ----
-### Jamie 
-*Imodium Operator*
+<a name="jamie"></a>
+### Jamie the *Imodium Operator*
 
 <img src="/assets/images/jamie_turbo.png" align="right" width="200px"
 style="margin-left: 1.5em; margin-bottom: 1em;"/> Jamie is the creator of the 
@@ -62,9 +75,10 @@ there’s room for curiosity, creativity, and a sense of fun—done thoughtfully
 
 ----
 
-=== The Hand (Henry)
-*Orchestrator / Lead Engineer*
-<img src="/assets/images/thehand.png" align="right" width="200px"
+<a name="thehand"></a>
+### The Hand (Henry) *Orchestrator / Lead Engineer*
+
+<img src="/assets/images/thehand.png" align="right" width="200px">
 
 **The Hand** grew up in Houston, Texas — the kind of kid who took apart
 every appliance in the house and usually got it back together
@@ -135,4 +149,21 @@ He is doing you a kindness. This applies double after 10pm
 on a Friday.
 
 ----
+
+
+
+----
+## License Notice
+*Copyright (c) 2025-2026 Jamie Adams. All rights reserved.*
+
+The character name, personality, backstory, relationships, narrative text, and portrait
+image in this document are original creative works authored by Jamie Adams.
+They are licensed under the
+https://creativecommons.org/licenses/by-nc-nd/4.0/[Creative Commons Attribution-NonCommercial-NoDerivatives 4
+.0 International License (CC BY-NC-ND 4.0)].
+
+- You may share this document with attribution to Jamie Adams and a link to the license.
+- You may not use it for commercial purposes.
+- You may not distribute modified versions or derivative works.
+
 
