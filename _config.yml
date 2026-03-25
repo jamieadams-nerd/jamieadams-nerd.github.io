@@ -16,4 +16,5 @@ show_excerpts: false
 
 header_pages:
   - posts.md
+  - team.md
   - about.md

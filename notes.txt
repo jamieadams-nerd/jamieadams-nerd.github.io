@@ -1,0 +1,9 @@
+Given where the project is, here's what makes sense right now:
+Pages you can build now:
+
+About — what UMRS is, the problem it solves, why it exists. You have enough material to write this cold.
+Team — Henri, Elena, Knox, Jamie, the others. Bios and portraits. This is ready right now.
+Posts — already have some, keep going.
+Project — high level overview, the crates, the architecture philosophy. No code details, just the vision.
+Documentation — placeholder page, "coming soon, see the repository" with a link.
+
