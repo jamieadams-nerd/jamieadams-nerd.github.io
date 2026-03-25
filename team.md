@@ -3,10 +3,10 @@ layout: page
 title: Team
 permalink: /team/
 ---
+## Meet the Team
 
 <div style="display: flex; gap: 2rem;">
   <div style="flex: 2;">
-    <h2>Meet the Team</h2>
     <p>The team behind the UMRS Project, are they real? Some? Like the band Gorillaz no 
 ever knew. But really cared to know the truth, the music was great. That's the 
 teams's thought on that. You decide. </p>
@@ -17,7 +17,7 @@ behaves the way it does. The team's experience, proper training, effective secur
 engineering comes from discipline, respect for constraints, and clean, intentional 
 design rather than unnecessary complexity.</p>
   </div>
-  <div style="flex: 1; font-size: 0.9em;">
+  <div style="flex: 1; font-size: 0.9em; width="10%"">
     <strong>On This Page</strong>
     <ul>
       <li><a href="#jamie">Jamie (a.k.a, Imodium Operator)</a></li>
