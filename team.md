@@ -224,7 +224,7 @@ significant architectural insight he has been sitting on
 for two weeks and finally found a plausible excuse to raise.
 The sticky note remains unread. It always remains unread.
 
-## Henri Bélanger *(Canadian Government Specialist)* 
+### Henri Bélanger *(Canadian Government Specialist)* 
 
 <img src="/assets/images/henri.png" align="right" width="200px">
 
@@ -446,9 +446,8 @@ held to the standard or it is not. He holds it to the
 standard. He always has.
 
 He will not let a beautiful translation be a policy failure.
-Not on this project. Not on his watch.
+Not on this project. Not on his watch. *Fier Canadien. Proud ally.*
 
-*Fier Canadien. Proud ally.*
 ----
 
 ### Simone *(i18n/i10n Tech Specialist / Canadian French Translator)*
