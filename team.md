@@ -17,7 +17,7 @@ behaves the way it does. The team's experience, proper training, effective secur
 engineering comes from discipline, respect for constraints, and clean, intentional 
 design rather than unnecessary complexity.</p>
   </div>
-  <div style="flex: 1; font-size: 0.9em; width="10%"">
+  <div style="flex: 1; font-size: 0.9em; width="10%">
     <strong>On This Page</strong>
     <ul>
       <li><a href="#jamie">Jamie (a.k.a, Imodium Operator)</a></li>
