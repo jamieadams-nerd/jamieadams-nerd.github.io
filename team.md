@@ -487,11 +487,14 @@ technical language actually gets used by people who work in
 it every day. She stayed for the tooling. She has not left.
 Nobody has asked her to. Nobody will.
 
-> In UMRS Terms:
+> **In UMRS Terms**
+>
 > i18n = the architecture that supports multiple languages baked in
 >
 > l10n = the French Canadian specific work — terminology, PROTÉGÉ A/B/C labels, 
-> Termium Plus corpus. She often depends on Henri to ensure accuracy.
+> Termium Plus corpus. 
+>
+> She often depends on Henri to ensure accuracy.
 
 Her translations do not sound machine-generated. This is not
 an accident. This is Simone reading every reference, checking
